@@ -184,12 +184,9 @@ struct ContentView: View {
         var color: Float = 0.0
         var b0: Int = 0
         var b1: Int = 0
-  //      var block1: Float = 0.0
         
         nBlocks = 60
-        
-   //     block1 = 1.0
-        
+                
         var blockBound = [Float](repeating: 0.0, count: nBlocks + 1)
         
         let colors: [[Float]] = [[0.0, 255.0, 0.0], [255.0, 255.0, 0.0], [255.0, 0.0, 0.0], [255.0, 0.0, 255.0], [0.0, 0.0, 255.0], [0.0, 255.0, 255.0]]
